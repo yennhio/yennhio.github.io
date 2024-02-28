@@ -8,21 +8,28 @@ const projects = [
   },
   {
     name: "Node.js Online Quiz",
-    descrip: "Online quiz . An",
+    descrip:
+      "Powered by Node.js and backed by a MySQL database, this online quiz offers an immersive learning experience that helps you explore the nuances of data visualization. Challenge your understanding of visual data and spot inaccuracies in COVID19 graphs and charts.",
     github: "https://github.com/CPP-HAPII/MisleadingChartsQuiz",
-    tags: ["Node.js", "HTML", "CSS", "JavaScript", "MySQL", "GazePoint", "OpenFace"],
+    tags: [
+      "Node.js",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "MySQL",
+      "GazePoint",
+      "OpenFace",
+    ],
   },
   {
     name: "AI Charades Game",
-    descrip:
-      "Charades game description AWS description Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+    descrip:"An interactive word-guessing game powered by ChatGPT, where players provide clues for a word, and the AI attempts to guess it within 50 tries. The game leverages the PyQt6 framework for its graphical user interface and OpenAI's GPT-3.5 turbo model for advanced natural language processing capabilities.",
     github: "https://github.com/Cyber-Booleam/AICharades",
     tags: ["Python", "PyQt6", "OpenAI API", "JSON parsing"],
   },
   {
     name: "Budgeti Mobile App",
-    descrip:
-      "Budgeti app description. Once deployed on Google Play and had 6 downloads.",
+    descrip: "Take control of your finances with Budgeti, the ultimate money management app designed for students. Developed with Flutter and Dart, Budgeti offers a sleek interface to help you track your expenses, manage your budget, and stay on top of finances. Once deployed on Google Play and had 6 downloads.",
     github: "https://github.com/yennhio/budgeti",
     tags: ["Flutter", "Dart", "SharedPreferences", "Android Studio"],
   },
