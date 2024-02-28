@@ -1,0 +1,68 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+
+#content {
+  display: flex;
+  margin: 50px 10% 0 10%;
+}
+
+#info {
+  width: 50%;
+}
+
+#content li {
+  margin: 10% 20px 0 0;
+}
+
+#content a:hover {
+  fill: #83c08c;
+}
+
+input,
+textarea {
+  display: inline-block;
+  width: 90%;
+  border-radius: 10px;
+  height: 35px;
+  cursor: pointer;
+  margin-top: 3px;
+  box-sizing: border-box;
+  border: solid #83c08c;
+  font-size: 16px;
+  padding: 2%;
+}
+
+#message {
+  height: 300px;
+}
+
+.contact-form {
+  width: 50%;
+  height: 60%;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  margin: 2% 10% 0 10%;
+}
+
+.contact-form button {
+  width: 90%;
+  height: 30px;
+  background-color: #83c08c;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  color: white;
+}
+
+.contact-form button:hover {
+  cursor: pointer;
+  background-color: #679979;
+}
+
+/* div {
+  border: solid;
+} */

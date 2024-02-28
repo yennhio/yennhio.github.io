@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  color: rgba(21, 21, 21, 0.685);
+  height: 100vh;
+}
+
+.project-container {
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 80vh;
+  width: 100%;
+}
+
+.project-block {
+  display: flex;
+  width: 50%;
+  justify-content: space-evenly;
+  margin: 0 auto 0 auto;
+  padding: 10px 10px 20px 10px;
+  border-radius: 10px;
+}
+
+.project-block:hover {
+  background-color: rgb(240, 248, 255, 0.8);
+}
+
+.project-name {
+  display: flex;
+  justify-content: end;
+  text-align: right;
+  text-wrap: nowrap;
+  width: 22%;
+  font-weight: bold;
+}
+
+.project-descrip {
+  width: 60%;
+}
+
+.github-link:hover .icons path {
+  fill: #83c08c;
+}
+
+.project-tags button {
+  background-color: rgb(182, 229, 182);
+  border: none;
+  padding: 8px;
+  margin: 6px 6px 0 0;
+  border-radius: 10px;
+}
+
+.project-tags button:hover {
+  background-color: rgb(141, 217, 141);
+  cursor: pointer;
+}
+
+/* div {
+  border: solid;
+} */

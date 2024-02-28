@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  overflow: hidden;
+  color: rgba(21, 21, 21, 0.685);
+  user-select: auto;
+}
+
+#background {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  z-index: -1;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+  font-size: 20px;
+}
+
+#logo {
+  margin-right: auto;
+  cursor: pointer;
+}
+
+li {
+  display: inline;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #83c08c;
+}
+
+footer a:hover {
+  color: white;
+  fill: white;
+}
+
+nav a {
+  margin-left: 40px;
+}
+
+#home-content {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 10% 10% 10%;
+}
+
+#home-text {
+  position: relative;
+  left: 50%;
+  width: 45%;
+}
+
+#home-text h1 {
+  font-size: 65px;
+  font-weight: normal;
+}
+
+#home-text p {
+  margin-top: -4%;
+  font-size: 18px;
+}
+
+#home-content-buttons {
+  margin-top: 15%;
+  display: flex;
+}
+
+#cat {
+  position: absolute;
+  left: 15%;
+  top: 20%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 45% 10%;
+  position: relative;
+  bottom: 420px;
+}
+
+#bottom-links li {
+  margin: 0 50px 0 0;
+  font-size: 18 px;
+}
+
+#bottom-contact {
+  font-weight: bold;
+}
+
+.icons {
+  width: 25px;
+}
+
+/* div {
+  border: solid;
+} */

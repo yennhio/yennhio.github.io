@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  color: rgba(21, 21, 21, 0.685);
+  font-size: 18px;
+  height: 100vh;
+}
+.experience-container {
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 80vh;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.cat {
+  z-index: -1;
+  position: absolute;
+  width: 23%;
+  margin-top: 20%;
+  margin-left: 74%;
+}
+
+.experience-block {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+  margin: 0 auto 0 auto;
+  z-index: 1;
+  padding: 10px 10px 20px 10px;
+  border-radius: 10px;
+}
+
+.experience-block:hover {
+  background-color: rgb(240, 248, 255, 0.8);
+  cursor: url(../images/favicon.svg), auto;
+
+}
+
+.year {
+  display: flex;
+  width: 16%;
+  justify-content: end;
+  font-weight: bold;
+}
+
+.role {
+  width: 70%;
+}
+
+.workplace {
+  font-size: 17px;
+  font-style: italic;
+  cursor: url(../images/favicon.svg), auto;
+
+}
+
+.experience-descrip {
+  margin-top: 2%;
+  font-size: 16px;
+}
+
+.experience-tags button {
+  background-color: rgb(182, 229, 182);
+  border: none;
+  padding: 8px;
+  margin: 6px 6px 0 0;
+  border-radius: 10px;
+  cursor: url(../images/favicon.svg), auto;
+}
+
+.experience-tags button:hover {
+  background-color: rgb(141, 217, 141);
+}
+
+/* div {
+  border: solid;
+} */

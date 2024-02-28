@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Experience</title>
+    <link rel="stylesheet" type="text/css" href="../css/experience.css" />
+    <link rel="icon" type="image/x-icon" href="../images/favicon.svg" />
+  </head>
+  <body>
+    <div id="navbar-container">
+      <script>
+        fetch("navbar.html")
+          .then((response) => response.text())
+          .then((data) => {
+            document.getElementById("navbar-container").innerHTML = data;
+          });
+      </script>
+    </div>
+
+    <div class="cat">
+      <object id="cat1" type="image/svg+xml" data="../images/catsleep.svg">
+        Your browser does not support SVG
+      </object>
+    </div>
+
+    <div class="experience-container"></div>
+
+    <script src="../js/experience.js"></script>
+  </body>
+</html>
