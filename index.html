@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Yennhi's Page</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-    <link rel="icon" type="image/x-icon" href="/images/favicon.svg" />
+    <link rel="stylesheet" type="text/css" href="/styles.css" />
+    <link rel="icon" type="image/x-icon" href="/components/svg/favicon.svg" />
   </head>
 
   <body>
     <div id="navbar-container">
       <script>
-        fetch("pages/navbar.html")
+        fetch("/components/navbar.html")
           .then((response) => response.text())
           .then((data) => {
             document.getElementById("navbar-container").innerHTML = data;
@@ -20,7 +20,7 @@
     </div>
 
     <div id="cat">
-      <object type="image/svg+xml" data="./images/homepagecat.svg">
+      <object type="image/svg+xml" data="/components/svg/homepagecat.svg">
         Your browser does not support SVG
       </object>
     </div>
@@ -51,7 +51,7 @@
         <div id="home-content-buttons">
           <div id="project-button">
             <script>
-              fetch("pages/projectbutton.html")
+              fetch("/components/projectbutton.html")
                 .then((response) => response.text())
                 .then((data) => {
                   document.getElementById("project-button").innerHTML = data;
@@ -61,7 +61,7 @@
 
           <div id="cv-button">
             <script>
-              fetch("pages/cvbutton.html")
+              fetch("/components/cvbutton.html")
                 .then((response) => response.text())
                 .then((data) => {
                   document.getElementById("cv-button").innerHTML = data;

@@ -61,7 +61,7 @@ function generateExperience(experience) {
           >
             ${experience.workplace}
           </a>
-          <img class="icons" src="../images/link.svg" style="width:13px; ">
+          <img class="icons" src="/experience/link.svg" style="width:13px; ">
 
         <div class="experience-descrip">${experience.descrip}</div>
         <div class="experience-tags">${tagButtons}</div>

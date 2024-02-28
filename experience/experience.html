@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Experience</title>
-    <link rel="stylesheet" type="text/css" href="./css/experience.css" />
-    <link rel="icon" type="image/x-icon" href="./images/favicon.svg" />
+    <link rel="stylesheet" type="text/css" href="/experience/experience.css" />
+    <link rel="icon" type="image/x-icon" href="/components/svg/favicon.svg" />
   </head>
   <body>
     <div id="navbar-container">
       <script>
-        fetch("navbar.html")
+        fetch("/components/navbar.html")
           .then((response) => response.text())
           .then((data) => {
             document.getElementById("navbar-container").innerHTML = data;
@@ -19,13 +19,13 @@
     </div>
 
     <div class="cat">
-      <object id="cat1" type="image/svg+xml" data="./images/catsleep.svg">
+      <object id="cat1" type="image/svg+xml" data="/experience/catsleep.svg">
         Your browser does not support SVG
       </object>
     </div>
 
     <div class="experience-container"></div>
 
-    <script src="./js/experience.js"></script>
+    <script src="/experience/experience.js"></script>
   </body>
 </html>

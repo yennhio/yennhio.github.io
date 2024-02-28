@@ -34,7 +34,7 @@ body {
 
 .experience-block:hover {
   background-color: rgb(240, 248, 255, 0.8);
-  cursor: url(../images/favicon.svg), auto;
+  cursor: url(/components/svg/favicon.svg), auto;
 
 }
 
@@ -52,7 +52,7 @@ body {
 .workplace {
   font-size: 17px;
   font-style: italic;
-  cursor: url(../images/favicon.svg), auto;
+  cursor: url(/components/svg/favicon.svg), auto;
 
 }
 
@@ -67,7 +67,7 @@ body {
   padding: 8px;
   margin: 6px 6px 0 0;
   border-radius: 10px;
-  cursor: url(../images/favicon.svg), auto;
+  cursor: url(/components/svg/favicon.svg), auto;
 }
 
 .experience-tags button:hover {

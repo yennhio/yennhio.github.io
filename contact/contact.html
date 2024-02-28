@@ -4,13 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
-    <link rel="stylesheet" type="text/css" href="/my-site/css/contact.css" />
-    <link rel="icon" type="image/x-icon" href="/my-site/images/favicon.svg" />
+    <link rel="stylesheet" type="text/css" href="/contact/contact.css" />
+    <link rel="icon" type="image/x-icon" href="/components/svg/favicon.svg" />
   </head>
   <body>
     <div id="navbar-container">
       <script>
-        fetch("navbar.html")
+        fetch("/components/navbar.html")
           .then((response) => response.text())
           .then((data) => {
             document.getElementById("navbar-container").innerHTML = data;
