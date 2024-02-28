@@ -67,7 +67,7 @@ nav a {
 #home-text {
   position: relative;
   left: 50%;
-  width: 45%;
+  width: 40%;
 }
 
 #home-text h1 {
@@ -81,7 +81,7 @@ nav a {
 }
 
 #home-content-buttons {
-  margin-top: 15%;
+  margin-top: 20%;
   display: flex;
 }
 
