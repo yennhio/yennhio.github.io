@@ -11,7 +11,7 @@
   <body>
     <div id="navbar-container">
       <script>
-        fetch("./pages/navbar.html")
+        fetch("/pages/navbar.html")
           .then((response) => response.text())
           .then((data) => {
             document.getElementById("navbar-container").innerHTML = data;
@@ -51,7 +51,7 @@
         <div id="home-content-buttons">
           <div id="project-button">
             <script>
-              fetch("./pages/projectbutton.html")
+              fetch("/pages/projectbutton.html")
                 .then((response) => response.text())
                 .then((data) => {
                   document.getElementById("project-button").innerHTML = data;
@@ -61,7 +61,7 @@
 
           <div id="cv-button">
             <script>
-              fetch("./pages/cvbutton.html")
+              fetch("/pages/cvbutton.html")
                 .then((response) => response.text())
                 .then((data) => {
                   document.getElementById("cv-button").innerHTML = data;
