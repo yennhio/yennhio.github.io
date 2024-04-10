@@ -83,18 +83,15 @@
       />
     </svg>
   </a>
-  <nav>
-    <ul>
+
+  <nav id="horizontal-nav">
+    <ul id="horizontal-ul">
       <li><a href="/index.html">ABOUT</a></li>
       <li>
-        <a href="/project/projects.html"
-          >PROJECTS</a
-        >
+        <a href="/project/projects.html">PROJECTS</a>
       </li>
       <li>
-        <a href="/experience/experience.html"
-          >EXPERIENCE</a
-        >
+        <a href="/experience/experience.html">EXPERIENCE</a>
       </li>
       <li>
         <a
@@ -106,10 +103,68 @@
         >
       </li>
       <li>
-        <a href="/contact/contact.html"
-          >CONTACT</a
-        >
+        <a href="/contact/contact.html">CONTACT</a>
       </li>
     </ul>
   </nav>
+
+  <div id="menu-icon-container"></div>
 </header>
+
+<style>
+  header {
+    display: flex;
+    padding: 2% 10%;
+    font-size: 20px;
+    align-items: center;
+    background-color: white;
+    height: 10vh;
+  }
+
+  #horizontal-nav {
+    width: 50%;
+  }
+
+  #horizontal-ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header a {
+    padding: 1%;
+  }
+
+  @media screen and (max-width: 1250px) {
+    #horizontal-nav {
+      width: 80%;
+    }
+
+    #logo svg {
+      max-width: 150%;
+      min-width: 30px;
+    }
+  }
+
+  #logo svg {
+    margin: auto;
+  }
+
+  #logo {
+    margin-right: auto;
+    cursor: pointer;
+    width: 10%;
+    height: 70%;
+  }
+
+  @media screen and (max-width: 780px) {
+    #horizontal-nav {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 780px) {
+    #menu-icon-container {
+      display: none;
+    }
+  }
+</style>

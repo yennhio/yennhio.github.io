@@ -3,16 +3,16 @@ body {
 }
 
 #content {
-  display: flex;
+  width: 80%;
   margin: 50px 10% 0 10%;
 }
 
-#info {
-  width: 50%;
+#info ul {
+  display: flex;
 }
 
 #content li {
-  margin: 10% 20px 0 0;
+  margin-right: 20px;
 }
 
 #content a:hover {
@@ -22,7 +22,6 @@ body {
 input,
 textarea {
   display: inline-block;
-  width: 90%;
   border-radius: 10px;
   height: 35px;
   cursor: pointer;
@@ -38,19 +37,26 @@ textarea {
   height: 300px;
 }
 
-.contact-form {
-  width: 50%;
-  height: 60%;
+.contact-form,
+#info {
+  width: 600px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 755px) {
+  .contact-form,
+  #info {
+    width: 100%;
+  }
 }
 
 .contact {
   display: flex;
   flex-direction: column;
-  margin: 2% 10% 0 10%;
+  margin-top: 2%;
 }
 
 .contact-form button {
-  width: 90%;
   height: 30px;
   background-color: #83c08c;
   border: none;

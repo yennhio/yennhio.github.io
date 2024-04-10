@@ -5,7 +5,13 @@ body {
   color: rgba(21, 21, 21, 0.685);
   font-size: 18px;
   height: 100vh;
+  cursor: url(/components/svg/favicon.svg), auto;
 }
+
+#navbar-container {
+  cursor: default;
+}
+
 .experience-container {
   overflow-y: auto;
   overflow-x: hidden;
@@ -30,35 +36,35 @@ body {
   z-index: 1;
   padding: 10px 10px 20px 10px;
   border-radius: 10px;
+  cursor: default;
 }
 
 .experience-block:hover {
   background-color: rgb(240, 248, 255, 0.8);
-  cursor: url(/components/svg/favicon.svg), auto;
-
 }
 
 .year {
   display: flex;
-  width: 16%;
+  width: 20%;
   justify-content: end;
   font-weight: bold;
+  text-align: right;
 }
 
 .role {
   width: 70%;
+  font-size: calc(16px + 0.1vw);
 }
 
 .workplace {
-  font-size: 17px;
+  font-size: calc(16px + 0.1vw);
   font-style: italic;
-  cursor: url(/components/svg/favicon.svg), auto;
-
+  cursor: pointer;
 }
 
 .experience-descrip {
   margin-top: 2%;
-  font-size: 16px;
+  font-size: calc(14px + 0.1vw);
 }
 
 .experience-tags button {
@@ -67,11 +73,24 @@ body {
   padding: 8px;
   margin: 6px 6px 0 0;
   border-radius: 10px;
-  cursor: url(/components/svg/favicon.svg), auto;
 }
 
 .experience-tags button:hover {
   background-color: rgb(141, 217, 141);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1250px) {
+  .experience-block {
+    width: 80%;
+  }
+
+  .cat {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 780px) {
 }
 
 /* div {

@@ -23,13 +23,15 @@ const projects = [
   },
   {
     name: "AI Charades Game",
-    descrip:"An interactive word-guessing game powered by ChatGPT, where players provide clues for a word, and the AI attempts to guess it within 50 tries. The game leverages the PyQt6 framework for its graphical user interface and OpenAI's GPT-3.5 turbo model for advanced natural language processing capabilities.",
+    descrip:
+      "An interactive word-guessing game powered by ChatGPT, where players provide clues for a word, and the AI attempts to guess it within 50 tries. The game leverages the PyQt6 framework for its graphical user interface and OpenAI's GPT-3.5 turbo model for advanced natural language processing capabilities.",
     github: "https://github.com/Cyber-Booleam/AICharades",
     tags: ["Python", "PyQt6", "OpenAI API", "JSON parsing"],
   },
   {
     name: "Budgeti Mobile App",
-    descrip: "Take control of your finances with Budgeti, the ultimate money management app designed for students. Developed with Flutter and Dart, Budgeti offers a sleek interface to help you track your expenses, manage your budget, and stay on top of finances. Once deployed on Google Play and had 6 downloads.",
+    descrip:
+      "Take control of your finances with Budgeti, the ultimate money management app designed for students. Developed with Flutter and Dart, Budgeti offers a sleek interface to help you track your expenses, manage your budget, and stay on top of finances. Once deployed on Google Play and had 6 downloads.",
     github: "https://github.com/yennhio/budgeti",
     tags: ["Flutter", "Dart", "SharedPreferences", "Android Studio"],
   },
@@ -91,3 +93,6 @@ function renderProjects() {
 }
 
 renderProjects();
+
+
+

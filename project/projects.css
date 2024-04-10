@@ -33,10 +33,12 @@ body {
   text-wrap: nowrap;
   width: 22%;
   font-weight: bold;
+  font-size: calc(14px + 0.1vw);
 }
 
 .project-descrip {
   width: 60%;
+  font-size: calc(14px + 0.1vw);
 }
 
 .github-link:hover .icons path {
@@ -49,11 +51,24 @@ body {
   padding: 8px;
   margin: 10px 6px 0 0;
   border-radius: 10px;
+  font-size: calc(12px + 0.1vw);
 }
 
 .project-tags button:hover {
   background-color: rgb(141, 217, 141);
   cursor: pointer;
+}
+
+@media screen and (max-width: 1250px) {
+  .project-block {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .project-name {
+    text-wrap: wrap;
+  }
 }
 
 /* div {

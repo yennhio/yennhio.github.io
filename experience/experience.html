@@ -16,6 +16,23 @@
             document.getElementById("navbar-container").innerHTML = data;
           });
       </script>
+
+      <script>
+        fetch("/components/menu.html")
+          .then((response) => response.text())
+          .then((data) => {
+            document.getElementById("menu-icon-container").innerHTML = data;
+          });
+      </script>
+
+      <script>
+        function myFunction(x) {
+          x.classList.toggle("change");
+
+          var mobileNav = document.querySelector(".mobile-nav");
+          mobileNav.classList.toggle("show");
+        }
+      </script>
     </div>
 
     <div class="cat">
