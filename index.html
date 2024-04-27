@@ -40,9 +40,18 @@
       </script>
     </div>
 
-    <div class="homepage" id="home-main-content">
+    <div
+      class="homepage"
+      id="home-main-content"
+      alt="Cat lounging in matcha mug"
+    >
       <div id="cat">
-        <object type="image/svg+xml" data="/components/svg/homepagecat.svg">
+        <object
+          type="image/svg+xml"
+          data="/components/svg/homepagecat.svg"
+          tabindex="-1"
+          aria-hidden="true"
+        >
           Your browser does not support SVG
         </object>
       </div>
@@ -87,14 +96,22 @@
       <div id="bottom-links">
         <ul>
           <li>
-            <a id="bottom-contact" href="/contact/contact.html">CONTACT</a>
+            <a id="bottom-contact" href="/contact/contact.html" role="button"
+              ><strong>CONTACT</strong></a
+            >
           </li>
-          <li><a href="mailto:nhidangn@gmail.com">nhidangn@gmail.com</a></li>
+          <li>
+            <a href="mailto:nhidangn@gmail.com" role="button"
+              >nhidangn@gmail.com</a
+            >
+          </li>
           <li>
             <a
               href="https://www.linkedin.com/in/yennhidang/"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Link to LinkedIn"
+              role="button"
             >
               <svg
                 class="icons"
@@ -113,6 +130,8 @@
               href="https://github.com/yennhio"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Link to Github"
+              role="button"
             >
               <svg
                 class="icons"

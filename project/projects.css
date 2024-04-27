@@ -32,7 +32,6 @@ body {
   text-align: right;
   text-wrap: nowrap;
   width: 22%;
-  font-weight: bold;
   font-size: calc(14px + 0.1vw);
 }
 

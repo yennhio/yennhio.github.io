@@ -47,7 +47,6 @@ body {
   display: flex;
   width: 20%;
   justify-content: end;
-  font-weight: bold;
   text-align: right;
 }
 

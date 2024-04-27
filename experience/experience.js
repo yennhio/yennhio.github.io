@@ -47,7 +47,7 @@ function generateExperience(experience) {
     <div class="experience-block">
 
       <div class="year">
-        <p>${experience.year}</p>
+        <p><strong>${experience.year}</strong></p>
       </div>
 
       <div class="role">

@@ -46,7 +46,7 @@ function generateProjects(project) {
   <div class="project-block">
 
     <div class="project-name">
-      <p>${project.name}</p>
+      <p><strong>${project.name}</strong></p>
     </div>
     
     <div class="project-descrip">
@@ -58,6 +58,8 @@ function generateProjects(project) {
         target="_blank"
         rel="noopener noreferrer"
         class="github-link"
+        role="button"
+        aria-label="Link to Project Github"
         >
           <svg
             class="icons"
@@ -93,6 +95,3 @@ function renderProjects() {
 }
 
 renderProjects();
-
-
-
