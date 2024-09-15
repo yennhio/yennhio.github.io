@@ -1,7 +1,7 @@
 const experience = [
   {
     year: "2023-2024",
-    role: "Full Stack Lead",
+    role: "Software Engineer",
     workplace:
       "The Human Centered, Adaptive, and Personalized Information Interaction Lab",
     worklink: "https://hapii-lab.github.io/",
@@ -33,8 +33,17 @@ const experience = [
     workplace: "Cal Poly Pomona Office of New Student Programs",
     worklink: "https://www.cpp.edu/orientation/index.shtml",
     descrip:
-      "Administered orientation programs and arranged student scheduling/reservations.",
+      "Managed campus website content and created inclusive marketing materials to inform students and boost online engagement",
     tags: ["Cascade", "Tableau", "PeopleSoft", "Customer Service"],
+  },
+  {
+    year: "2016-2017",
+    role: "Webmaster & PR",
+    workplace: "Southeast Asia Global Issues Network Conference 2017",
+    worklink: "https://ginsgnconference2017.wordpress.com/",
+    descrip:
+      "Spearheaded the conference's digital strategy to drive engagement, optimize website content, create marketing materials, and design event merchandise",
+    tags: ["WordPress", "Graphic Design", "Content Creation"],
   },
 ];
 
