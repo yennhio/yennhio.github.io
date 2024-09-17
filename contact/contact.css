@@ -3,16 +3,21 @@ body {
 }
 
 #content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 80%;
-  margin: 50px 10% 0 10%;
+  margin: 10px 10% 0 10%;
 }
 
-#info ul {
+#content ul {
   display: flex;
+  justify-content: center;
 }
 
 #content li {
   margin-right: 20px;
+  margin-top: 20px;
 }
 
 #content a:hover {
@@ -37,15 +42,13 @@ textarea {
   height: 300px;
 }
 
-.contact-form,
-#info {
+.contact-form {
   width: 600px;
   margin-bottom: 20px;
 }
 
 @media screen and (max-width: 755px) {
-  .contact-form,
-  #info {
+  .contact-form {
     width: 100%;
   }
 }

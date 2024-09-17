@@ -15,7 +15,7 @@ const experience = [
     workplace: "Cal Poly Pomona Information Technology Security & Compliance",
     worklink: "https://www.cpp.edu/it/security.shtml",
     descrip:
-      "Executed code reviews and manual compliance testing for web applications. Conducted compliance assessments and generated security reports based on Web Content Accessibility Guidelines (WCAG) 2.1 AA standards. Monitored and documented compliance gaps. Identified and resolved accessibility barriers/challenges for product enhancements.",
+      "Conducted web accessibility testing for campus and vendor websites. Resolved compliance issues through manual assessments based on Web Content Accessibility Guidelines (WCAG) 2.1 AA standards.",
     tags: [
       "ServiceNow",
       "Compliance Testing",
